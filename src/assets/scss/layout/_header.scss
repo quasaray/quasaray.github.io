@@ -82,6 +82,7 @@
     border-top-width: _size(border-width);
     border-bottom-width: _size(border-width);
     max-width: 100%;
+    margin-bottom: 1px;
 
     .inner {
       @include vendor(

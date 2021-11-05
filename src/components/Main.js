@@ -10,6 +10,7 @@ class Main extends React.Component {
     let close = (
       <button
         className="close"
+        aria-label="close"
         onClick={() => {
           this.props.onCloseArticle()
         }}

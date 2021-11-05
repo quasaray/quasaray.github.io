@@ -12,12 +12,12 @@ class Work extends React.Component{
           <p>
             I have had the joy of being able to work with a variety of technologies on just as many projects. 
             Unfortunately I have not had many opportunities to work on full projects in my spare time, but I have been able to expand my skill set with many other tasks such as:
-            <ul>
+          </p>
+          <ul>
               <li>Redesigning the <a href="https://turnkey.com.au/">company website</a></li>
               <li>Creating an internal full stack licencing web app using <a href="https://vaadin.com/">Vaadin</a></li>
               <li>Working on customer projects with <a href="https://www.jhipster.tech/">JHipster</a></li>
-            </ul>
-          </p>
+          </ul>
         </span>
     }
 }
