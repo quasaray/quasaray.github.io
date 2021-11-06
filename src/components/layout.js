@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
+import previewImage from '../images/hiking-left.jpg'
 
 const Layout = ({ children}) => {
 
@@ -15,6 +16,7 @@ const Layout = ({ children}) => {
           site {
             siteMetadata {
               title
+              url
             }
           }
         }
@@ -26,6 +28,9 @@ const Layout = ({ children}) => {
             meta={[
               { name: 'description', content: 'An introduction site' },
               { name: 'keywords', content: 'software development, full stack, Gatsby' },
+              { property:'og:image', content: data.site.siteMetadata.url + `${previewImage}`},
+              { property:'og:title', content: "Aaron's Software portfolio"},
+              { property:'og:type', content: 'website' },
             ]}
           >
             <html lang="en" />

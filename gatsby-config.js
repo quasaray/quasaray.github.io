@@ -3,6 +3,7 @@ module.exports = {
     title: 'Aaron Maynard\'s site',
     author: 'Aaron Maynard',
     description: 'A simple Gatsby site based on Dimension by HTML5 UP',
+    url:'https://quasaray.github.io/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
